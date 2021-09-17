@@ -1,0 +1,292 @@
+/* title-text-white # FFFFFF  */
+/* title-text-black 303030 */
+/* basic-text-black 555555 */
+/* basic-text-white 9DA4BD */
+/* secondary-text-color rgba(157, 164, 189, 0.6); */
+/* accent-color FF6C00 */
+/* background-fon F7F7F7 */
+/* background-fon-footer 191C26 */
+
+:root {
+  --title-text-white: #ffffff;
+  --title-text-black: #303030;
+  --basic-text-black: #555555;
+  --basic-text-white: #9da4bd;
+  --secondary-text-color: #rgba(157, 164, 189, 0.6);
+  --accent-color: #ff6c00;
+  --background-fon: #f7f7f7;
+  --background-fon-footer: #191c26;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.btn {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+.pre-title {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.after-title {
+  font-size: 18px;
+  line-height: 1.67;
+}
+.section-title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: calc(49 / 42);
+  letter-spacing: 0.05em;
+}
+.socil-link {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  color: var(--title-text-black);
+}
+.socil-link:hover,
+.socil-link:focus {
+  color: var(--accent-color);
+}
+/* --------------body -------------------*/
+body {
+  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Raleway', sans-serif; -------на заметку*/
+  letter-spacing: 0.02em;
+}
+
+/* --------------------header---------------- */
+.header {
+  background-color: #9da4bd;
+}
+.header-link {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  color: var(--title-text-white);
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-color);
+}
+.header-link:current {
+  color: var(--accent-color);
+  /* --------------------------не работает current */
+}
+
+.header-tel {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  color: var(--title-text-white);
+}
+
+.btn-first {
+  color: var(--title-text-white);
+}
+/* ----------------------------герой hero -----------*/
+.hero {
+  background-color: tomato;
+}
+.hero-left {
+  background-color: whitesmoke;
+}
+
+.hero-pre-title {
+  color: var(--secondary-text-color);
+}
+.hero-title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: calc(85 / 72);
+  letter-spacing: 0.05em;
+  color: var(--title-text-white);
+}
+
+.hero-after-title {
+  color: var(--basic-text-white);
+}
+
+/* --------------about------------------- */
+.about {
+}
+.about-pre-title {
+  color: var(--title-text-black);
+}
+.about-title {
+  color: var(--title-text-black);
+}
+.about-after-title {
+  color: var(--basic-text-black);
+}
+.about-list {
+}
+.about-item {
+}
+.about-right {
+}
+
+.about-text {
+}
+.second-btn {
+  color: var(--title-text-black);
+}
+
+/* ---------------Услуги и цены prices--------- */
+.prices {
+  background-color: tomato;
+}
+.prices-pre-title {
+  color: var(--secondary-text-color);
+}
+.prices-title {
+  color: var(--title-text-white);
+}
+.prices-list {
+}
+.prices-item {
+}
+.prices-count,
+.prices-type {
+  font-size: 18px;
+  line-height: 1.67;
+  color: var(--basic-text-white);
+}
+
+/*-------------------- преимущества reasons-------- */
+.reasons {
+}
+.reasons-list {
+}
+.reasons-count {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: calc(57 / 42);
+  letter-spacing: 0.05em;
+  text-align: center;
+  color: var(--title-text-black);
+}
+.reasons-item-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: calc(15 / 12);
+  text-align: center;
+  color: var(--title-text-black);
+}
+.reasons-right {
+}
+.reasons-pre-title {
+  color: var(--title-text-black);
+}
+.reasons-title {
+  color: var(--title-text-black);
+}
+.reasons-after {
+  color: var(--basic-text-black);
+}
+
+/* ----------Наши мастера masters----------- */
+.masters {
+}
+.masters-pre-title {
+  color: var(--title-text-black);
+}
+.masters-title {
+  color: var(--title-text-black);
+}
+.masters-list {
+}
+.masters-item {
+}
+.masters-subtitle {
+  font-size: 18px;
+  line-height: calc(25 / 18);
+  text-align: center;
+  color: var(--title-text-black);
+}
+.masters-text {
+  font-size: 14px;
+  line-height: calc(19 / 14);
+  text-align: center;
+  color: var(--accent-color);
+}
+
+/* ----------   <!--  gallery-->------ */
+.gallery-pre-title {
+  color: var(--title-text-black);
+}
+.gallery-list {
+}
+
+/* ---------Онлайн-запись online------- */
+.online {
+  background-color: tomato;
+}
+.online-pre-title {
+  color: var(--title-text-white);
+}
+
+/* ------------контакты contacts----------- */
+.contacts {
+  background-color: tomato;
+}
+.contacts-pre-title {
+  color: var(--title-text-white);
+}
+.contacts-address {
+  font-style: inherit;
+}
+.contacts-list {
+}
+.contacts-item {
+}
+.contacts-link {
+  font-size: 18px;
+  line-height: 1.67;
+  color: var(--basic-text-white);
+}
+.contacts-time-title {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: calc(15 / 11);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--title-text-white);
+}
+.contacts-time {
+  font-size: 18px;
+  line-height: 1.67;
+  color: var(--basic-text-white);
+}
+/* ------------footer----------------- */
+.footer-copt {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: calc(15 / 11);
+  color: var(--basic-text-white);
+}
+.footer-list {
+}
+.footer-item {
+}
+.footer-lick {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: calc(15 / 11);
+  color: var(--title-text-black);
+}
