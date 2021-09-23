@@ -18,45 +18,59 @@
   <body>
     <!-- шапка header -->
     <header class="header">
-      <a href="/" class="header-logo"><img src="/img/Logo.svg" alt="лого сайта" /></a>
-      <nav class="header-nav">
-        <ul class="header-list list">
-          <li class="header-item">
-            <a href="" class="header-link link current">О нас</a>
-          </li>
-          <li class="header-item">
-            <a href="" class="header-link link">Услуги и цены</a>
-          </li>
-          <li class="header-item">
-            <a href="" class="header-link link">Мастера</a>
-          </li>
-          <li class="header-item">
-            <a href="" class="header-link link">Контакты</a>
-          </li>
-        </ul>
-      </nav>
-      <a href="tel:+380441111111" class="header-tel link">+38 044 111 11 11</a>
-      <button type="button" class="btn btn-first">онлайн-запись</button>
+      <div class="container header-container">
+        <a href="/" class="header-logo"><img src="/img/Logo.svg" alt="лого сайта" /></a>
+
+        <nav class="header-nav">
+          <ul class="header-list list">
+            <li class="header-item">
+              <a href="" class="header-link link current">О нас</a>
+            </li>
+
+            <li class="header-item">
+              <a href="" class="header-link link">Услуги и цены</a>
+            </li>
+
+            <li class="header-item">
+              <a href="" class="header-link link">Мастера</a>
+            </li>
+
+            <li class="header-item">
+              <a href="" class="header-link link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="header-contacts">
+          <a href="tel:+380441111111" class="header-tel link">+38 044 111 11 11</a>
+
+          <button type="button" class="btn btn-first">онлайн-запись</button>
+        </div>
+      </div>
     </header>
     <!-- main -->
     <main>
       <!-- герой hero-->
       <section class="hero">
-        <div class="hero-left">
-          <ul class="hero-list list">
-            <li>
-              <a href="" class="socil-link link">Instagram</a>
-            </li>
-            <li>
-              <a href="" class="socil-link link">Youtube</a>
-            </li>
-          </ul>
+        <div class="container hero-container">
+          <div class="hero-left">
+            <ul class="hero-list list">
+              <li>
+                <a href="" class="socil-link link">Instagram</a>
+              </li>
+              <li>
+                <a href="" class="socil-link link">Youtube</a>
+              </li>
+            </ul>
+          </div>
+          <div class="hero-right">
+            <p lang="en" class="pre-title hero-pre-title">A hair salon for men in Kyiv</p>
+            <h1 lang="en" class="hero-title">BarberShop</h1>
+            <p class="after-title hero-after-title">
+              Мы эксперты в модных мужских стрижках. Работаем быстро, осторожно и со вкусом.
+            </p>
+          </div>
         </div>
-        <p lang="en" class="pre-title hero-pre-title">A hair salon for men in Kyiv</p>
-        <h1 lang="en" class="hero-title">BarberShop</h1>
-        <p class="after-title hero-after-title">
-          Мы эксперты в модных мужских стрижках. Работаем быстро, осторожно и со вкусом.
-        </p>
       </section>
       <!-- О НАС about-->
       <section class="about">
@@ -156,7 +170,8 @@
       </section>
       <!-- Наши мастера masters -->
       <section class="masters">
-        <p class="pre-title masters-pre-title">для настоящих ценителей атмосферы</p>
+        <div class="container">
+          <p class="pre-title masters-pre-title">для настоящих ценителей атмосферы</p>
         <h2 class="masters-title section-title">Наши мастера</h2>
         <ul class="masters-list list">
           <li class="masters-item">
@@ -181,6 +196,7 @@
             <p lang="en" class="masters-text">Extreme Barber</p>
           </li>
         </ul>
+        </div>
       </section>
       <!--  gallery-->
       <section>
