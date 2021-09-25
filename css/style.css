@@ -39,7 +39,16 @@ ul {
 img {
   display: block;
 }
-
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0)
+}
 .container {
   width: 1200px;
   padding: 0 15px;
@@ -155,7 +164,6 @@ img {
 }
 /* ----------------------------герой hero -----------*/
 .hero {
-  
 }
 .hero-container {
   display: flex;
@@ -166,7 +174,7 @@ img {
 .hero-list {
   width: 98px;
 }
-.hero-right{
+.hero-right {
   flex-grow: 1;
   padding: 272px 0 206px 91px;
   background-color: var(--basic-text-black);
@@ -174,18 +182,16 @@ img {
 .hero-pre-title {
   margin-bottom: 20px;
   color: var(--secondary-text-color);
-
 }
 .hero-title {
   margin-bottom: 20px;
-  
+
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 72px;
   line-height: calc(85 / 72);
   letter-spacing: 0.05em;
   color: var(--title-text-white);
-  
 }
 
 .hero-after-title {
@@ -195,15 +201,20 @@ img {
 
 /* --------------about------------------- */
 .about {
+  padding-top: 139px;
+  padding-bottom: 125px;
 }
 .about-pre-title {
   color: var(--title-text-black);
+  margin-bottom: 20px;
 }
 .about-title {
   color: var(--title-text-black);
+  margin-bottom: 20px;
 }
 .about-after-title {
   color: var(--basic-text-black);
+  margin-bottom: 20px;
 }
 .about-list {
 }
@@ -213,6 +224,7 @@ img {
 }
 
 .about-text {
+  margin-bottom: 40px;
 }
 .second-btn {
   color: var(--title-text-black);
@@ -220,17 +232,25 @@ img {
 
 /* ---------------Услуги и цены prices--------- */
 .prices {
-  background-color: tomato;
+  padding: 130px 0;
+  background-color: rgb(185, 204, 194);
 }
 .prices-pre-title {
   color: var(--secondary-text-color);
+  margin-bottom: 20px;
 }
 .prices-title {
   color: var(--title-text-white);
+  margin-bottom: 44px;
+}
+.prices-box {
+  padding: 30px 40px;
+  margin-bottom: 50px;
 }
 .prices-list {
 }
 .prices-item {
+  margin-bottom: 20px;
 }
 .prices-count,
 .prices-type {
@@ -241,6 +261,7 @@ img {
 
 /*-------------------- преимущества reasons-------- */
 .reasons {
+  padding: 130px 0;
 }
 .reasons-list {
 }
@@ -262,9 +283,11 @@ img {
 .reasons-right {
 }
 .reasons-pre-title {
+  margin-bottom: 20px;
   color: var(--title-text-black);
 }
 .reasons-title {
+  margin-bottom: 20px;
   color: var(--title-text-black);
 }
 .reasons-after {
@@ -274,6 +297,7 @@ img {
 /* ----------Наши мастера masters----------- */
 .masters {
   padding: 130px 0;
+  background-color: var(--background-fon);
 }
 .masters-pre-title {
   color: var(--title-text-black);
@@ -286,14 +310,17 @@ img {
 .masters-list {
   display: flex;
   margin-left: -30px;
-
 }
-.masters-item{
-flex-basis: calc(100% / 3 -30px);
-margin-left: 30px;
+.masters-item {
+  flex-basis: calc(100% / 3 -30px);
+  margin-left: 30px;
+}
+.masters-tumb {
+  margin-top: 30px;
 }
 
 .masters-subtitle {
+  margin-bottom: 8px;
   font-size: 18px;
   line-height: calc(25 / 18);
   text-align: center;
@@ -307,10 +334,21 @@ margin-left: 30px;
 }
 
 /* ----------   <!--  gallery-->------ */
+.gallery {
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
 .gallery-pre-title {
+  padding-bottom: 44px;
   color: var(--title-text-black);
 }
 .gallery-list {
+  display: flex;
+  margin-left: -30px;
+}
+.gallery-item {
+  flex-basis: calc(100% / 4 -30px);
+  margin-left: 30px;
 }
 
 /* ---------Онлайн-запись online------- */
@@ -323,6 +361,7 @@ margin-left: 30px;
 
 /* ------------контакты contacts----------- */
 .contacts {
+  padding: 130px 0;
   background-color: tomato;
 }
 .contacts-pre-title {
@@ -332,8 +371,10 @@ margin-left: 30px;
   font-style: inherit;
 }
 .contacts-list {
+  margin-bottom: 70px;
 }
 .contacts-item {
+  margin-bottom: 20px;
 }
 .contacts-link {
   font-size: 18px;
@@ -349,18 +390,30 @@ margin-left: 30px;
   color: var(--title-text-white);
 }
 .contacts-time {
+  margin-top: 20px;
   font-size: 18px;
   line-height: 1.67;
   color: var(--basic-text-white);
 }
 /* ------------footer----------------- */
+.footer {
+  padding: 57px 0 55px;
+  display: flex;
+  align-items: center;
+}
 .footer-copt {
   font-weight: 600;
   font-size: 11px;
   line-height: calc(15 / 11);
   color: var(--basic-text-white);
 }
+.footer-box {
+  display: flex;
+  align-items: center;
+}
 .footer-list {
+  display: flex;
+  margin-left: auto;
 }
 .footer-item {
 }
