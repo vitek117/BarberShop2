@@ -131,6 +131,7 @@ img {
 .socil-link:focus {
   color: var(--accent-color);
 }
+
 .flex {
   display: flex;
   justify-content: space-between;
@@ -565,6 +566,13 @@ margin-top: 30px;
   line-height: 1.67;
   color: var(--basic-text-white);
 }
+.contacts-icon{
+  fill: var(--basic-text-white);
+  width: 24px;
+  height: 24px;
+  margin-right: 16px;
+  /* -------------почему закрашены иконки!!!???-------------------- */
+}
 .contacts-time-title {
   /* font-weight: 600;
   font-size: 11px;
@@ -579,6 +587,8 @@ margin-top: 30px;
   line-height: 1.67;
   color: var(--basic-text-white);
 }
+
+
 /* ------------footer----------------- */
 .footer {
   padding: 57px 0 55px;
@@ -606,4 +616,14 @@ margin-top: 30px;
   font-size: 11px;
   line-height: calc(15 / 11);
   color: var(--title-text-black);
+}
+.socil-link::before {
+  content: '';
+  width: 63px;
+  height: 1px;
+
+  margin-right: 21px;
+}
+.socil-link-light::before {
+  background-color: tomato;
 }
