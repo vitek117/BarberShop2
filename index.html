@@ -55,7 +55,7 @@
         <div class="header-contacts">
           <a href="tel:+380441111111" class="header-tel link">+38 044 111 11 11</a>
 
-          <button type="button" class="btn btn-first">онлайн-запись</button>
+          <button type="button" class="btn btn-first" data-modal-open>онлайн-запись</button>
         </div>
       </div>
     </header>
@@ -108,7 +108,7 @@
               команда, которая всегда с клиентами "на одной волне". Поэтому, мы всегда готовы
               усовершенствовать каждого, кто к нам приходит!
             </p>
-            <button type="button" class="btn second-btn">онлайн-запись</button>
+            <button type="button" class="btn second-btn" >онлайн-запись</button>
           </div>
         </div>
       </section>
@@ -157,7 +157,7 @@
               </li>
             </ul>
           </div>
-          <button class="prices-btn btn" type="button">онлайн-запись</button>
+          <button class="prices-btn btn" type="button" >онлайн-запись</button>
         </div>
       </section>
       <!-- преимущества reasones-->
@@ -443,5 +443,13 @@
         </div>
       </div>
     </footer>
+    <!-- backdrop -->
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="close-btn" data-modal-close>X</button>
+      </div>
+    </div>
+
+    <script src="./js/modal.js"></script>
   </body>
 </html>
