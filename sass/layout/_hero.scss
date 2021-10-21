@@ -1,0 +1,60 @@
+/* ----------------------------герой hero -----------*/
+
+.hero-container {
+  display: flex;
+}
+.hero-left {
+  background-color: whitesmoke;
+  width: 98px;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 28px;
+  padding-bottom: 25px;
+}
+.hero-list {
+  display: flex;
+  align-items: center;
+  transform: rotate(-90deg);
+  transform-origin: top left;
+
+  &::before {
+    content: '';
+    width: 63px;
+    height: 1px;
+    margin-right: 40px;
+    background-color: var(--title-text-black);
+  }
+}
+
+.hero-item {
+  & + & {
+    margin-left: 40px;
+  }
+}
+.hero-right {
+  background-image: linear-gradient(rgba(25, 28, 38, 0.2), rgba(25, 28, 38, 0.2)),
+    url(../img/sliderimg3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  flex-grow: 1;
+  padding: 272px 0 206px 91px;
+  background-color: var(--background-fon-footer);
+}
+.hero-pre-title {
+  margin-bottom: 20px;
+}
+.hero-title {
+  margin-bottom: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: calc(85 / 72);
+  letter-spacing: 0.05em;
+  color: var(--title-text-white);
+}
+
+.hero-after-title {
+  color: var(--basic-text-white);
+  max-width: 400px;
+}

@@ -1,0 +1,35 @@
+.about {
+  padding-top: 139px;
+  padding-bottom: 125px;
+}
+.about-all{
+display: flex;
+  justify-content: space-between;
+}
+.about-pre-title {
+  margin-bottom: 20px;
+}
+.about-title {
+  color: var(--title-text-black);
+  margin-bottom: 20px;
+}
+.about-after-title {
+  color: var(--basic-text-black);
+  margin-bottom: 20px;
+}
+.about-list {
+  display: flex;
+}
+.about-item:not(:last-child) {
+  margin-right: 30px;
+}
+.about-right {
+  margin-left: 64px;
+}
+
+.about-text {
+  margin-bottom: 40px;
+}
+.second-btn {
+  color: var(--title-text-black);
+}

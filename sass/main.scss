@@ -1,0 +1,31 @@
+// переменые !
+@import './utils/vars';
+// сброс стилей!
+@import './base/reset';
+// утилита хидден
+@import './utils/hidden';
+// общие стили !
+@import './base/common';
+// container
+@import './components/container';
+// btn
+@import './components/btn';
+// title
+@import './components/pre-title';
+@import './components/after-title';
+@import './components/section-title';
+@import './components/_social-links';
+@import './components/social-list';
+@import './components/backdrop';
+// секции!
+@import './layout/header';
+@import './layout/hero';
+@import './layout/about';
+@import './layout/prices';
+@import './layout/reasons';
+@import './layout/masters';
+@import './layout/gallery';
+@import './layout/contact-wrap';
+@import './layout/contacts';
+@import './layout/online';
+@import './layout/footer';

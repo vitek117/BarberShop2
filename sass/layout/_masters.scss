@@ -1,0 +1,68 @@
+/* ----------Наши мастера masters----------- */
+.masters {
+  max-width: 1280px;
+  margin: 0px auto;
+  padding: 130px 0;
+  background-color: var(--background-fon);
+}
+.masters-pre-title {
+  margin-bottom: 20px;
+}
+.masters-title {
+  color: var(--title-text-black);
+  margin-bottom: 44px;
+}
+.masters-list {
+  display: flex;
+  margin-left: -30px;
+}
+.masters-item {
+  position: relative;
+  flex-basis: calc(100% / 3 -30px);
+  margin-left: 30px;
+}
+
+.masters-tom-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.masters-top-text {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--title-text-white);
+  background-color: var(--accent-color);
+  opacity: 0.9;
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  transform: translateY(100%);
+  transition: transform 300ms linear;
+
+  .masters-item:hover & {
+    transform: translateY(0);
+  }
+}
+.masters-tumb {
+  margin-top: 30px;
+}
+
+.masters-subtitle {
+  margin-bottom: 8px;
+  font-size: 18px;
+  line-height: calc(25 / 18);
+  text-align: center;
+  color: var(--title-text-black);
+}
+.masters-text {
+  margin-bottom: 30px;
+  font-size: 14px;
+  line-height: calc(19 / 14);
+  text-align: center;
+  color: var(--accent-color);
+}

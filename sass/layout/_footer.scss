@@ -1,0 +1,41 @@
+/* ------------footer----------------- */
+.footer {
+  padding: 57px 0 55px;
+  display: flex;
+  align-items: center;
+}
+.footer-copt {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: calc(15 / 11);
+  color: var(--basic-text-white);
+}
+.footer-box {
+  display: flex;
+  align-items: center;
+}
+.footer-list {
+  display: flex;
+  margin-left: auto;
+}
+
+.footer-lick {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: calc(15 / 11);
+  color: var(--title-text-black);
+}
+.socil-link {
+  &::before {
+    content: '';
+    width: 63px;
+    height: 1px;
+
+    margin-right: 21px;
+  }
+}
+.socil-link-light {
+  &::before {
+    background-color: tomato;
+  }
+}

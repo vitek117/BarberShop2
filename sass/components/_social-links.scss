@@ -1,0 +1,13 @@
+.socil-link {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  color: var(--title-text-black);
+  transition: color 300ms linear;
+
+    &:hover,
+    &:focus {
+    color: var(--accent-color);
+}
+}
+

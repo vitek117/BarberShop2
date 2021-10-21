@@ -1,0 +1,16 @@
+/* ----------   <!--  gallery-->------ */
+.gallery {
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+.gallery-pre-title {
+  padding-bottom: 44px;
+}
+.gallery-list {
+  display: flex;
+  margin-left: -30px;
+}
+.gallery-item {
+  flex-basis: calc(100% / 4 -30px);
+  margin-left: 30px;
+}

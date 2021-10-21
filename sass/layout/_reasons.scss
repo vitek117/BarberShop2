@@ -1,0 +1,59 @@
+/*-------------------- преимущества reasons-------- */
+.reasons {
+  padding: 130px 0;
+}
+.reasons-container {
+  display: flex;
+}
+
+.reasons-list {
+  width: 370px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.reasons-item {
+  width: 170px;
+  width: 133px;
+  padding: 20px 24px;
+  text-align: center;
+  background-color: var(--background-fon);
+}
+
+.reasons-count {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: calc(57 / 42);
+  letter-spacing: 0.05em;
+  text-align: center;
+  color: var(--title-text-black);
+  display: flex;
+  justify-content: center;
+
+  &::after {
+    content: '+';
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: 600;
+    color: var(--accent-color);
+  }
+}
+.reasons-count .reasons-item-text {
+  margin-top: 6px;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: calc(15 / 12);
+  text-align: center;
+  color: var(--title-text-black);
+}
+
+
+.reasons-pre-title {
+  margin-bottom: 20px;
+}
+.reasons-title {
+  margin-bottom: 20px;
+  color: var(--title-text-black);
+}
+.reasons-after {
+  color: var(--basic-text-black);
+}
