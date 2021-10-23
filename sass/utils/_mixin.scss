@@ -1,0 +1,16 @@
+@mixin font($fs, $lh, $fw) {
+  font-size: $fs;
+  line-height: $lh;
+  font-weight: $fw;
+  //   letter-spacing: $ls;
+}
+// @mixin width-height($wid, $hei) {
+//   width: $wid;
+//   height: $hei;
+// }
+// @mixin margin($mr-t, $mr-r, $mr-b, $mr-l) {
+//   margin-top: $mr-t;
+//   margin-right: $mr-r;
+//   margin-bottom: $mr-b;
+//   margin-left: $mr-l;
+// }

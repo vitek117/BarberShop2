@@ -12,8 +12,7 @@
   padding-bottom: 25px;
 }
 .hero-list {
-  display: flex;
-  align-items: center;
+ @extend %align-items;
   transform: rotate(-90deg);
   transform-origin: top left;
 

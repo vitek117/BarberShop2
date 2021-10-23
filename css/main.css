@@ -184,9 +184,7 @@ body {
 /* -------------backdrop------------------ */
 .backdrop {
   position: fixed;
-  display: flex;
   justify-content: center;
-  align-items: center;
   width: 100vw;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.2);
@@ -216,8 +214,6 @@ body {
 }
 
 .close-btn {
-  display: flex;
-  align-items: center;
   justify-content: center;
   position: absolute;
   right: 10px;
@@ -234,7 +230,7 @@ body {
   font-size: 18px;
   line-height: 1.5;
   font-weight: 700;
-  text-align: center;
+  @in text-align: center;
   margin-bottom: 20px;
 }
 
@@ -309,8 +305,6 @@ body {
   border: 2px solid #555555;
   border-radius: 3px;
   margin-right: 7px;
-  display: flex;
-  align-items: center;
   justify-content: center;
 }
 
@@ -330,11 +324,6 @@ body {
   padding: 32px 0;
 }
 
-.header-container {
-  display: flex;
-  align-items: center;
-}
-
 .header-logo {
   margin-right: 70px;
 }
@@ -343,11 +332,6 @@ body {
   fill: var(--title-text-black);
   width: 66px;
   height: 55px;
-}
-
-.header-nav {
-  display: flex;
-  align-items: center;
 }
 
 .header-list {
@@ -391,9 +375,7 @@ body {
 }
 
 .header-contacts {
-  display: flex;
   margin-left: auto;
-  align-items: center;
   padding-right: 10px;
 }
 
@@ -425,8 +407,6 @@ body {
 }
 
 .hero-list {
-  display: flex;
-  align-items: center;
   transform: rotate(-90deg);
   transform-origin: top left;
 }
@@ -695,8 +675,6 @@ body {
 }
 
 .masters-top-text {
-  display: flex;
-  align-items: center;
   text-align: center;
   font-size: 16px;
   line-height: 1.5;
@@ -924,5 +902,11 @@ body {
 
 .socil-link-light::before {
   background-color: tomato;
+}
+
+.backdrop, .close-btn, .chek-text span, .header-container, .header-nav, .header-contacts, .hero-list, .masters-top-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 /*# sourceMappingURL=main.css.map */

@@ -28,8 +28,7 @@
 }
 
 .masters-top-text {
-  display: flex;
-  align-items: center;
+  @extend %align-items;
   text-align: center;
   font-size: 16px;
   line-height: 1.5;
