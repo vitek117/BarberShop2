@@ -1,4 +1,5 @@
 // переменые !
+@import './utils/mixin';
 @import './utils/vars';
 // сброс стилей!
 @import './base/reset';
@@ -31,4 +32,4 @@
 @import './layout/footer';
 
 @import './utils/placeholder';
-@import './utils/mixin';
+// @import './utils/mixin';

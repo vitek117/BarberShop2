@@ -20,7 +20,7 @@ display: flex;
 .about-list {
   display: flex;
 }
-.about-item:not(:last-child) {
+.about-list__item:not(:last-child) {
   margin-right: 30px;
 }
 .about-right {

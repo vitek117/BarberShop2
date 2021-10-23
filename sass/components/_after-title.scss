@@ -1,5 +1,5 @@
 .after-title {
-  font-size: 18px;
-  line-height: 1.67;
-  // @include font(18px, 1.67);
+  // font-size: 18px;
+  // line-height: 1.67;
+  @include font(18px, 1.67, null, null);
 }

@@ -1,16 +1,23 @@
-@mixin font($fs, $lh, $fw) {
+@mixin font($fs, $lh, $fw, $ls) {
   font-size: $fs;
   line-height: $lh;
   font-weight: $fw;
-  //   letter-spacing: $ls;
+  letter-spacing: $ls;
 }
-// @mixin width-height($wid, $hei) {
-//   width: $wid;
-//   height: $hei;
-// }
+@mixin width-height($wid, $hei) {
+  width: $wid;
+  height: $hei;
+}
 // @mixin margin($mr-t, $mr-r, $mr-b, $mr-l) {
 //   margin-top: $mr-t;
 //   margin-right: $mr-r;
 //   margin-bottom: $mr-b;
 //   margin-left: $mr-l;
 // }
+@mixin padding($pt, $pr, $pb, $pl) {
+  padding-top: $pt;
+  padding-right: $pr;
+  padding-bottom: $pb;
+  padding-left: $pl;
+  
+}
